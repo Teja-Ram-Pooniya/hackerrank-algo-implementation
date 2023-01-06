@@ -2,9 +2,9 @@
 
 import sys
 
-
+a = 0
 t = int(input().strip())
-for a0 in xrange(t):
+for a in xrange(t):
     n,k = input().strip().split(' ')
     n,k = [int(n),int(k)]
     a = map(int,input().strip().split(' '))
